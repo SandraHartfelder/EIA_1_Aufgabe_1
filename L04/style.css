@@ -1,6 +1,19 @@
 body
 {
-background-color:black;
-position: absolute;
+    background-color: black;
+    background-image: url("C:\Users\Win10\Downloads\EIA_1\EIA_1_Aufgabe_1\L04\Bilder\lesen.jpg");
 }
 
+div
+{
+    position: fixed;
+    top: 150px;
+    bottom: 150px;
+    left: 430px;
+}
+
+img
+{ 
+    width: 120%;
+    height: 100%;
+}
