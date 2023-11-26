@@ -3,18 +3,36 @@ body{
     }
 
 img{
-       max-width: 100%;
-       height: auto;
+  width: 100%;
+  height: auto;
+
+  
+}
+
+    @media only screen and (min-width: 430px) {
+      .container {
+        position:fixed;
+        left: 130px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;}
+
+      .item-1 {width: 36.7%;}
+      .item-2 {width: 32.78%;}
+      .item-3 {width: 28%;}
+    }
+
+    @media only screen and (max-width: 1280px) {
+      .container {
+        position:fixed;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;}
+
+      .item-1 {width: 45%;}
+      .item-2 {width: 45%;}
+      .item-3 {width: 45%;}
     }
     
-    @media only screen and (min-width: 430px) {
-        .item-1 {width: 50%}
-        .item-2 {width: 30%}
-        .item-3 {width: 20%}
-      }
-
-      @media only screen and (max-width: 1280px) {
-        .item-1 {width: 50%}
-        .item-2 {width: 30%}
-        .item-3 {width: 20%}
-      }
