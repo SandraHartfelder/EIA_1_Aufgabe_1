@@ -9,4 +9,3 @@ if (decision == 'left') {
  }else {
     prompt('Keine korrekte Eingabe');
  }
-
