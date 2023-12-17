@@ -1,3 +1,24 @@
-body {
-    background-color: lightblue; 
+body{
+    background-color: black; 
 }
+
+.box {
+    text-align: center;
+    background-color: black; 
+    color: aliceblue;
+    #output {
+    color: aquamarine ; }
+    border: 2px solid aqua; 
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+/* Ich hab es leider nicht geschafft die Box auf die Mitte der Seite zu bringen. Ich hatt es auch mit position absolute versucht und noch ein paar andere Sachen aber es ging nicht
